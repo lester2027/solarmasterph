@@ -55,7 +55,7 @@ function handleScrollAnimation() {
     window.addEventListener('scroll', () => {
         const homeSection = document.querySelector('.home');
         const homeSectionPosition = homeSection.getBoundingClientRect().top;
-        const screenPosition = window.innerHeight / 1.3;
+        const screenPosition = window.innerHeight / 1;
 
         if(homeSectionPosition < screenPosition) {
             homeContent.classList.add('active');
