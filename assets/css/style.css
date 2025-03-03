@@ -467,11 +467,13 @@ page1 {
 
 .form-container {
     background: rgb(255, 255, 255);
-    padding: 2rem;
+    padding: 0.7rem;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     width: 100%;
     max-width: 600px;
+    margin-left: 33rem;
+    margin-top: 2rem;
 }
 
 .form-container h2 {
