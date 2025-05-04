@@ -1,5 +1,6 @@
 <script setup>
 import NavigationBar from './components/NavigationBar.vue'
+import HomePage from './components/HomePage.vue'
 </script>
 
 <template>
@@ -7,5 +8,7 @@ import NavigationBar from './components/NavigationBar.vue'
     <NavigationBar />
   </header>
 
-  <main></main>
+  <main>
+    <HomePage />
+  </main>
 </template>
